@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms - Let's make it</title>
+</head>
+<body>
+    <h1>form to apply for contacting to build your websites</h1>
+    <form action="post">
+    <div>
+        <label for="username">Enter your username </label>
+        <input type="text" name="username" placeholder="Enter your name"
+        autofocus>
+    </div>
+
+    <div>
+        <label>Gender:</label>
+        <label><input type="radio" name="gender" value="male"> Male</label>
+        <label><input type="radio" name="gender" value="female"> Female</label>
+    </div>
+
+    <div>
+         <!-- Checkbox -->
+         <label><input type="checkbox" name="subscribe" value="yes"> Love u Tripti</label>
+
+    </div>
+    <div>
+
+        <!-- Textarea -->
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+    </div>
+
+    <div>
+
+        <!-- Select (Dropdown) -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="" disabled selected>Select your country</option>
+            <option value="India">India</option>
+            <option value="Canada">Canada</option>
+            <option value="UK">United Kingdom</option>
+            <option value="USA">United States</option>
+            <option value="Russia">Russia</option>
+            <option value="Poland">Poland</option>
+            <option value="Scotland">Scotland</option>
+            <!-- Add more options as needed -->
+        </select>
+
+        <div>
+
+        <!-- Submit Button -->
+        <button type="submit">Submit</button>
+    </form>
+
+        </div>
+    </div>
+
+    </form>
+</body>
+</html>
