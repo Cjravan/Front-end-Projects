@@ -1,0 +1,46 @@
+/* styles.css */
+/* Add your CSS styles here */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  #login-section, #home-section {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #home-section div {
+    margin-bottom: 10px;
+  }
+  
+  #product-list div {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #af544c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #dca33b;
+  }
+  
